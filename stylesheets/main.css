@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background: rgba(240, 240, 140, 0.1);
+}
+
+main {
+  padding: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+#joke_container {
+  background: white;
+  padding: 40px 0;
+  margin-bottom: 20px;
+}
+
+#joke_container p {
+  font-family: serif;
+  font-style: italic;
+  font-size: 24px;
+  display: inline-block;
+}
+
+#joke_container:before,
+#joke_container:after {
+  content: "\"";
+  display: inline;
+  font-size: 24px;
+  font-style: italic;
+}
+
+button {
+  padding: 20px;
+  border: none;
+  color: white;
+  font-size: 24px;
+  background: rgba(50, 50, 250, 0.5);
+}
+
+button:hover {
+  cursor: pointer;
+}
